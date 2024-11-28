@@ -1,0 +1,107 @@
+/* Details.css */
+.details-container {
+    padding: 4rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .section {
+    margin-bottom: 3rem;
+  }
+  
+  .section-heading {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #444;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .detail-item, .strength-item, .certification-item, .tool-item {
+    margin-bottom: 0.8rem;
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .degree {
+    font-weight: bold;
+  }
+  
+  .institution, .year, .percentage {
+    color: #666;
+  }
+  
+  .strengths-list, .certifications-list, .tools-list {
+    padding-left: 1.5rem;
+  }
+  
+  /* 3-Column Layout for larger screens */
+  .details-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+  
+  .tools-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .group-heading {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #444;
+    margin-bottom: 0.8rem;
+  }
+  
+  .tool-item {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .strength-item, .tool-item {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 0.5rem;
+  }
+  
+  .tools-list li {
+    list-style-type: circle;
+    margin-left: 1.5rem;
+  }
+  
+  /* Mobile & Tablet Responsive Design */
+  @media screen and (max-width: 1024px) {
+    .details-row {
+      grid-template-columns: repeat(2, 1fr); /* 2 columns on medium screens */
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .details-container {
+      padding: 2rem; /* Reduce padding for smaller screens */
+    }
+  
+    .details-row {
+      grid-template-columns: 1fr; /* 1 column on smaller screens */
+    }
+  
+    .section-title {
+      font-size: 2rem; /* Smaller title on mobile */
+    }
+  
+    .section-heading {
+      font-size: 1.6rem; /* Smaller section heading */
+    }
+  
+    .detail-item, .strength-item, .certification-item, .tool-item {
+      font-size: 1rem; /* Smaller font for mobile */
+    }
+  }
