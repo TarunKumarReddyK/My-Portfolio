@@ -9,9 +9,9 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
-    year: "June 2023 - July 2024",
-    role: "Full Stack Developer",
-    company: "MocX, Tirupati, India - Remote ",
+    year: "January 2025 - Present",
+    role: "App Engineer STS",
+    company: "Hitachi Digital Services, Banglore, India ",
     description: ` Played a key role in the development of the MocX platform, focused on providing mock interview
 experiences.
 • Developed and maintained the front-end of the platform using React, ensuring a responsive and
